@@ -1,3 +1,6 @@
+//Shreyes Gagganapally
+//5626926
+
 #include <stdio.h>
 #include <math.h>
 
@@ -11,11 +14,15 @@ double calculateArea();
 double calculateWidth(); 
 double calculateHeight();
 
-int main(int argc, char **argv) {
-    calculateDistance();
-    calculatePerimeter();
-
-    return 0;
+int main(void) 
+{ 
+    calculateDistance(); 
+    calculatePerimeter(); 
+    calculateArea(); 
+    calculateWidth(); 
+    calculateHeight(); 
+    return 0; 
+    
 }
 
 //asks for user input
@@ -79,7 +86,7 @@ double calculateHeight() {
 
     //calculate the distance between y values
     double height = fabs(y2 - y1);
-    printf("The width of the city encompassed by your request is %.2lf\n", height);
+    printf("The height of the city encompassed by your request is %.2lf\n", height);
 
     return 2.0;
 }
